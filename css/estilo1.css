@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;1,200&family=Oswald:wght@300&family=Roboto&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;1,200&family=Oswald:wght@300&family=Poppins&family=Roboto&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;1,200&family=Oswald:wght@300&family=Poppins&family=Roboto&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 85vh;
+    background-color: #F5F5EF;
+   
+}
+
+header {
+    
+    position: relative;
+    padding: 10px;
+    background-image: url(../imagem/capa.png);
+    
+    
+}
+
+header > h1 {
+    text-align: center;
+    padding: px;
+    
+    font-size: 50px;
+    font-family: 'Bebas Neue', 'cursive';
+    letter-spacing: 25px;
+   
+}
+
+header > p#bordao {
+    text-align: center;
+    
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    
+}
+
+
+
+a#menua {
+    font-family: 'Shadows Into Light',
+    cursive;
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: none;
+    margin-left: 30px;
+    
+    
+    
+    padding: 5px;   
+    background-color: #F5F5EF;
+
+    border-radius: 10px;
+
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+
+    transition-duration: 0.4s;
+
+    
+}
+
+a#menua:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.699);
+    transition-duration: 0.4s;
+}
+
+
+
+.container {
+    height: 73vh;
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin: auto;
+    
+    
+}
+
+.item {
+    margin: auto;
+    
+    width: 100%;
+    justify-content: center;
+    
+    
+    
+
+}
+
+img {
+    width: 700px;
+    margin-top: 40px;
+}
+
+
+.footer-container {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    background-color:   #f4cfb771;
+    height: 47px;
+   
+    font-weight: 600;
+    font-style: italic;
+
+    padding: px;
+    
+}
+
+.rodape {
+    color: rgb(43, 43, 43)
+    
+    
+   
+}
+
+p#arodape a {
+    color: black;
+    padding: 0;
+    margin: 0;
+    background-color: #f4cfb700;
+    
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+p#arodape a:hover {
+    text-decoration: underline;
+}
